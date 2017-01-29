@@ -1,0 +1,23 @@
+do i = 1, M_i
+      do j = 1, M_j
+
+         if ((C(i,j) < 1) .and. amod(real(i + j), 2.) == 0.) then
+            k = k + 1
+         end if
+
+      end do
+   end do
+
+   allocate(B(1:k))
+   k = 1
+
+   do i = 1, M_i
+      do j = 1, M_j
+
+         if ((C(i,j) < 1) .and. amod(real(i + j), 2.) == 0.) then
+            B(k) = C(i,j)
+            k = k + 1
+         end if
+
+      end do
+   end do

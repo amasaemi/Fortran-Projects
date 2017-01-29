@@ -1,0 +1,14 @@
+
+Исходный список:
+One            Z.B.
+Two            M.T.
+Tho            B.T.
+Four           G.G.
+Four           A.G.
+
+Сортированный список:
+Four           A.G.
+Four           G.G.
+One            Z.B.
+Two            M.T.
+Tho            B.T.
